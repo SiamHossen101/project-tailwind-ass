@@ -7,16 +7,21 @@
     body{
     font-family: "Poppins", sans-serif;
     }
+    .clip-path-custom{
+        clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+    }
 </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
 <body class="bg-black">
     <header class="max-w-[1320px] w-full m-auto">
         <nav class="">
             <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between">
-                <div class="  lg:text-left items-center bg-clip-text text-transparent bg-gradient-to-r from-[#F66844] to-[#FF921B80]">
+                <div class=" sm:block  lg:text-left items-center bg-clip-text text-transparent bg-gradient-to-r from-[#F66844] to-[#FF921B80]">
                     <div class="flex lg:justify-start">
                     <img src="image/logo_left.png" alt="">
                     <h1 class="text-[24px]
@@ -31,7 +36,7 @@
                 </div>
                 
                 
-                <ul class="text-[#FFFFFF] flex gap-5 items-center flex-col lg:flex-row lg:gap-5">
+                <ul class="text-[#FFFFFF] flex gap-5 items-center flex-col lg:flex-row  lg:gap-5">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">about</a></li>
@@ -41,5 +46,48 @@
             </div>
         </nav>
     </header>
+
+    <section>
+        <main class="bg-cover bg-center h-[300px] md:h-[500px] lg:h-screen" style="background-image: url('image/banner.png');">
+            
+            <div class="max-w-[1320px] m-auto w-full">
+                <div class="relative">
+                    <div>
+                        <div class="text-[#FFFFFF] mt-30">
+                        <div class="bg-gradient-to-b from-[#1f1b1b] to-[#000000] w-full max-w-max px-5 text-white">
+                            <h1 class="text-[64px] leading-tight">Transform <br> Your Body</h1>
+                            <p class="text-[15px] mb-20 mt-5">we are dedricated to helping you transform your <br> body and mind through the power of fitness</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <button class="text-[14px] bg-gradient-to-r from-[#F66844] to-[#FF921B] p-3">Get Started</button>
+                                <div class="flex items-center border  p-3 gap-2 border-orange-500">
+                                    <img src="image/play_circle.png" alt>
+                                    <button class="text-[14px]">Watch Reviews</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+    </section>
+    <section class="relative">
+        <div class="text-[#FFFFFF] absolute text-[30px] bg-gradient-to-r from-[#F66844] to-[#FF921B] py-1 pr-10 pl-3 clip-path-custom border-current">
+               <i class="fa-brands fa-google mr-5"></i>
+                <i class="fa-brands fa-facebook-f mr-6"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+        <div class=" max-w-[1320px] m-auto w-full">
+        <menu class="bg-cover bg-center h-[300px] md:h-[500px] lg:h-screen flex w-full" style="background-image: url('image/roated_banner.png');">
+            <div>
+                <div>
+                    <h1 class="text-[40px] text-[#FFFFFF] mt-25">Fitness plans & <span class="text-[#FF921B]">Nutritions</span></h1>
+                </div>
+            </div>
+        </menu>
+    </div> 
+    </section>
+    
 </body>
 </html>
