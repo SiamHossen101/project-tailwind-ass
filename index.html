@@ -74,7 +74,7 @@
     </section>
 
     <section class="relative">
-        <div class="text-[#FFFFFF] absolute text-[30px] bg-gradient-to-r from-[#F66844] to-[#FF921B] py-1 pr-10 pl-3 clip-path-custom border-current">
+        <div class="text-[#FFFFFF] absolute text-[30px] bg-gradient-to-r from-[#F66844] to-[#FF921B] py-1 pr-10 pl-3 clip-path-custom border-current block">
                <i class="fa-brands fa-google mr-5"></i>
                 <i class="fa-brands fa-facebook-f mr-6"></i>
                 <i class="fa-brands fa-youtube"></i>
@@ -85,7 +85,7 @@
                 <div>
                     <h1 class="text-[40px] text-[#FFFFFF] mt-25">Fitness plans & <span class="text-[#FF921B]">Nutritions</span></h1>
                 </div>
-                <div class="grid grid-cols-2 lg:grid-cols-3 max-w-[1120px] w-full m-auto mt-17 items-center justify-center ml-30 gap-15 ">
+                <div class="grid grid-cols-1 lg:grid-cols-3 max-w-[1120px] w-full m-auto mt-17 items-center justify-center ml-30 gap-15 ">
                    
                     <div class="m-auto w-full">
                         <img src="image/workout 1.png" alt="" class="ml-25">
@@ -127,8 +127,8 @@
     <section>
         <div class="max-w-[1320px] m-auto w-full">
             <div>
-                <h1 class="text-white text-[40px]">Subscribe To <span class="text-[#FF921B]">Plans</span></h1>
-                <div class="flex  items-center justify-between">
+                <h1 class="text-white text-[40px] block">Subscribe To <span class="text-[#FF921B]">Plans</span></h1>
+                <div class="lg:flex  items-center justify-between flex-col lg:flex-row block">
                     <div class="ml-30 mt-20 flex flex-col items-center bg-gradient-to-t from-[#000000] to-[#181717] p-14">
                         <h1 class="text-white text-[24px]">Fit</h1>
                         <p class="mt-4 text-[#FFFFFF80]">Plan Exp. 16/11/2024</p>
@@ -136,12 +136,15 @@
                         <p class="text-[#FFFFFF80] text-[16px] mt-8">Streaming</p>
                         <button class="border border-[#FF921B] text-white mt-6 px-6 py-1 text-[20px]">Select Plan</button>
                     </div>
+                    <div class="relative">
                     <div class="ml-30 mt-20 flex flex-col items-center  bg-gradient-to-t from-[#000000] to-[#181717] p-14">
+                        <h1 class="bg-white absolute p-2 top-15 rounded-sm">Recommended</h1>
                         <h1 class="text-white text-[24px]">Fit</h1>
                         <p class="mt-4 text-[#FFFFFF80]">Plan Exp. 16/11/2024</p>
                         <h2 class="mt-8 text-white"><span class=" text-[24px]">$1200/</span> <span class="text-[#FFFFFF80]">Month</span></h2>
                         <p class="text-[#FFFFFF80] text-[16px] mt-8">Streaming</p>
                         <button class="border border-[#FF921B] text-white mt-6 px-6 py-1 text-[20px]">Select Plan</button>
+                    </div>
                     </div>
                     <div class="ml-30 mt-20 flex flex-col items-center  bg-gradient-to-t from-[#000000] to-[#181717] p-14">
                         <h1 class="text-white text-[24px]">Fit</h1>
@@ -158,12 +161,48 @@
     <section>
         <div class="max-w-[1320px] w-full m-auto mt-17">
             <div>
-                <h1 class="text-white text-[40px]">Join Out <span class="text-[#FF921B] ">Trainer</span></h1>
+                <h1 class="text-white text-[40px] block">Join Out <span class="text-[#FF921B] ">Trainer</span></h1>
                 <div>
-                    <div class="ml-30 flex lg:flex-row gap-6 flex-col items-center justify-between mt-17">
+                    <div class="ml-30 flex lg:flex-row gap-6 flex-col items-center justify-between mt-17 w-auto">
                         <img src="image/trainer_01.png" alt="">
                         <img src="image/trainer_02.png" alt="">
                         <img src="image/trainer_03.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="max-w-[1320px] m-auto w-full mt-20">
+            <h1 class="text-[40px] text-white">Why Join With <span class="text-[#FF921B]">Us?</span></h1>
+            <div>
+                <div class="flex items-center justify-between">
+                    <div>
+                    <div class="mt-20 ml-30 bg-gradient-to-t from-[#000000] to-[#181717] p-9 pr-90 m-auto max-w-3xl">
+                   <div class="flex text-white gap-6 items-center text-[24px]">
+                    <div class="w-3 h-3 bg-[#FF921B] rounded-full"></div>
+                    <h1>Best Gym</h1>
+                   </div>
+                   <div class="flex text-white gap-6 items-center text-[24px]">
+                    <div class="w-3 h-3 rounded-full bg-[#FF921B]"></div>
+                    <h1>Experts Coach</h1>
+                   </div>
+                   <div class="flex text-white gap-6 items-center text-[24px]">
+                    <div class="w-3 h-3 bg-[#FF921B] rounded-full"></div>
+                    <h1>Good Workout Facilities</h1>
+                   </div>
+                   <div class="flex text-white gap-6 items-center text-[24px]">
+                    <div class="w-3 h-3 bg-[#FF921B] rounded-full"></div>
+                    <h1>Consultation With Experts</h1>
+                   </div>
+                 
+                   </div>
+                     <button class="text-white mt-24 mr-10 bg-gradient-to-r from-[#F66844] to-[#FF921B] text-[24px] p-4 ml-30">See More Benifits</button>
+                    </div>
+                    <div class="flex lg:flex-col gap-10">
+                        <img src="image/join_us_01.png" alt="" class="mr-25">
+                        <img src="image/join_us_02.png" alt="" class="ml-25">
                     </div>
                 </div>
             </div>
