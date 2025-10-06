@@ -17,13 +17,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
-<body class="bg-black ">
-    <header class="max-w-[1320px] w-full m-auto">
+<body class="bg-black overflow-x-hidden">
+    <header class="max-w-[1320px] w-full m-auto overflow-x-hidden">
         <nav class="">
-            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between">
+            <div class="flex flex-col lg:flex-row items-center lg:justify-between lg:gap-0">
                 <div class=" sm:block  lg:text-left items-center bg-clip-text text-transparent bg-gradient-to-r from-[#F66844] to-[#FF921B80]">
                     <div class="flex lg:justify-start">
-                    <img src="image/logo_left.png" alt="">
+                    <img src="image/logo_left.png" alt="" class="w-6 md:w-full">
                     <h1 class="text-[24px]
                     mx-5">Bodyshape</h1>
                     <img src="image/logo_right.png" alt="">
@@ -31,12 +31,12 @@
 
                     <div>
                     <h3 class="bg-gradient-to-r from-[#F66844] to-[#FF921B80] text-transparent bg-clip-text text-[12px]
-                    ml-10 mt-2">Unleash your inner othlete</h3>
+                     mt-2">Unleash your inner othlete</h3>
                   </div>
                 </div>
                 
                 
-                <ul class="text-[#FFFFFF] flex gap-5 items-center flex-col lg:flex-row  lg:gap-5">
+                <ul class="text-[#FFFFFF] lg:flex gap-5 items-center flex-col lg:flex-row  lg:gap-5 hidden">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">about</a></li>
@@ -47,13 +47,13 @@
         </nav>
     </header>
 
-    <section>
-        <main class="bg-cover bg-center h-[300px] md:h-[500px] lg:h-screen" style="background-image: url('image/banner.png');">
+    <section class="overflow-x-hidden">
+        <main class="bg-cover bg-center h-[300px] md:h-[500px] lg:h-screen bg-no-repeat" style="background-image: url('image/banner.png');">
             
             <div class="max-w-[1320px] m-auto w-full">
                 <div class="relative">
                     <div>
-                        <div class="text-[#FFFFFF] mt-30">
+                        <div class="text-[#FFFFFF] mt-12 lg:mt-20 px-4 max-w-[1320px] mx-auto">
                         <div class="bg-gradient-to-b from-[#1f1b1b] to-[#000000] w-full max-w-max px-5 text-white">
                             <h1 class="text-[64px] leading-tight">Transform <br> Your Body</h1>
                             <p class="text-[15px] mb-20 mt-5">we are dedricated to helping you transform your <br> body and mind through the power of fitness</p>
@@ -73,7 +73,7 @@
         
     </section>
 
-    <section class="relative">
+    <section class="relative overflow-x-hidden">
         <div class="text-[#FFFFFF] absolute text-[30px] bg-gradient-to-r from-[#F66844] to-[#FF921B] py-1 pr-10 pl-3 clip-path-custom border-current block">
                <i class="fa-brands fa-google mr-5"></i>
                 <i class="fa-brands fa-facebook-f mr-6"></i>
@@ -85,35 +85,35 @@
                 <div>
                     <h1 class="text-[40px] text-[#FFFFFF] mt-25">Fitness plans & <span class="text-[#FF921B]">Nutritions</span></h1>
                 </div>
-                <div class="grid grid-cols-1 lg:grid-cols-3 max-w-[1120px] w-full m-auto mt-17 items-center justify-center ml-30 gap-15 ">
+                <div class="grid grid-cols-1 lg:grid-cols-3 max-w-[1120px] w-full m-auto mt-17 items-center justify-center ml-30 md:grid-cols-2">
                    
-                    <div class="m-auto w-full">
+                    <div class="lg:border-b-1 lg:border-[#F66844] py-15 pr-4">
                         <img src="image/workout 1.png" alt="" class="ml-25">
                         <h1 class="text-white text-[16px] mt-4 ml-20">Weight Loss</h1>
                         <p class="text-white text-[10px] mt-9">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Necessitatibus  n  explicabo porro quam, tenetur maiores <br> cupiditate,  totam mollitia eaque ea architecto voluptatem!</p>
                     </div>
                     
-                    <div class="">
+                    <div class="lg:border-b-1 lg:border-[#F66844] lg:border-l-1 py-15 pl-4  ">
                         <img src="image/yoga 1.png" alt="" class="ml-25 underline underline-[#FF921B]">
                         <h1 class="text-white text-[16px] mt-4 ml-20 ">Weight Loss</h1>
                         <p class="text-white text-[10px] mt-9">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Necessitatibus  n  explicabo porro quam, tenetur maiores <br> cupiditate,  totam mollitia eaque ea architecto voluptatem!</p>
                     </div>
-                    <div class="">
+                    <div class="lg:border-b-1 lg:border-l-1 lg:border-[#F66844] py-15 pl-4">
                         <img src="image/bicycle 1.png" alt="" class="ml-25">
                         <h1 class="text-white text-[16px] mt-4 ml-20">Weight Loss</h1>
                         <p class="text-white text-[10px] mt-9">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Necessitatibus  n  explicabo porro quam, tenetur maiores <br> cupiditate,  totam mollitia eaque ea architecto voluptatem!</p>
                     </div>
-                    <div class="">
-                        <img src="image/biceps.png" alt=""  class="ml-25 mt-7">
+                    <div class="pr-4">
+                        <img src="image/biceps.png" alt=""  class="ml-25">
                         <h1 class="text-white text-[16px] mt-4  ml-20">Weight Loss</h1>
                         <p class="text-white text-[10px] mt-9">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Necessitatibus  n  explicabo porro quam, tenetur maiores <br> cupiditate,  totam mollitia eaque ea architecto voluptatem!</p>
                     </div>
-                    <div>
+                    <div class="lg:border-l-1  lg:border-[#F66844] pl-4">
                         <img src="image/fitness.png" alt="" class="ml-25 mt-7">
                         <h1 class="text-white text-[16px] mt-4  ml-20">Weight Loss</h1>
                         <p class="text-white text-[10px] mt-9">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Necessitatibus  n  explicabo porro quam, tenetur maiores <br> cupiditate,  totam mollitia eaque ea architecto voluptatem!</p>
                     </div>
-                    <div>
+                    <div class="lg:border-l-1  lg:border-[#F66844] pl-4">
                         <img src="image/runer-silhouette-running-fast.png" alt="" class="ml-25 mt-7">
                         <h1 class="text-white text-[16px] mt-4 ml-20">Weight Loss</h1>
                         <p class="text-white text-[10px] mt-9">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Necessitatibus  n  explicabo porro quam, tenetur maiores <br> cupiditate,  totam mollitia eaque ea architecto voluptatem!</p>
@@ -124,10 +124,10 @@
     </div> 
     </section>
 
-    <section>
+    <section class="overflow-x-hidden">
         <div class="max-w-[1320px] m-auto w-full">
             <div>
-                <h1 class="text-white text-[40px] block">Subscribe To <span class="text-[#FF921B]">Plans</span></h1>
+                <h1 class="text-white text-[40px] block mt-6">Subscribe To <span class="text-[#FF921B]">Plans</span></h1>
                 <div class="lg:flex  items-center justify-between flex-col lg:flex-row block">
                     <div class="ml-30 mt-20 flex flex-col items-center bg-gradient-to-t from-[#000000] to-[#181717] p-14">
                         <h1 class="text-white text-[24px]">Fit</h1>
@@ -158,7 +158,7 @@
         </div>
     </section>
     
-    <section>
+    <section class="overflow-x-hidden">
         <div class="max-w-[1320px] w-full m-auto mt-17">
             <div>
                 <h1 class="text-white text-[40px] block">Join Out <span class="text-[#FF921B] ">Trainer</span></h1>
@@ -173,7 +173,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="overflow-x-hidden">
         <div class="max-w-[1320px] m-auto w-full mt-20">
             <h1 class="text-[40px] text-white">Why Join With <span class="text-[#FF921B]">Us?</span></h1>
             <div>
@@ -209,78 +209,84 @@
         </div>
     </section>
 
-    <footer class="bg-gradient-to-t from-[#000000] to-[#141212]">
-        <div class="max-w-[1320px] m-auto w-full">
-            <div>
-                <div class="mt-40 pt-23 flex items-center justify-between">
-                    <div class="  items-center bg-clip-text text-transparent bg-gradient-to-r from-[#F66844] to-[#FF921B80]">
-                    <div class="flex lg:justify-start">
-                    <img src="image/logo_left.png" alt="">
-                    <h1 class="text-[24px]
-                    mx-5">Bodyshape</h1>
-                    <img src="image/logo_right.png" alt="">
-                    </div>
+   <footer class="bg-gradient-to-t from-[#000000] to-[#141212] text-white mt-20 overflow-x-hidden">
+  <div class="max-w-[1320px] mx-auto px-6 py-16">
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
 
-                    <div>
-                    <h3 class="bg-gradient-to-r from-[#F66844] to-[#FF921B80] text-transparent bg-clip-text text-[12px]
-                    ml-10 mt-2">Unleash your inner othlete</h3>
-                  </div>
-                  <div class="text-white text-[20px] mt-8">
-                    <h1>Support Your Need To <br>Much Fitness Goal</h1>
-                  </div>
-                </div>
-                <div>
-                    <h1 class="text-white text-[20px]">Company</h1>
-                    <ul class="mt-10">
-                    <li class="text-[#FFFFFF80] text-[16px] mb-2"><a href="">About</a></li>
-                    <li class="text-[#FFFFFF80] text-[16px] mb-2"><a href="">Careers</a></li>
-                    <li class="text-[#FFFFFF80] text-[16px]"><a href="">Blogs</a></li>
-
-                    </ul>
-                </div>
-                <div>
-                    <h1 class="text-white text-[20px]">Contact</h1>
-                    <ul class="mt-10">
-                        <li class="text-[#FFFFFF80] text-[16px] mb-2"><a href="">Help \ FAQ</a></li>
-                        <li class="text-[#FFFFFF80] text-[16px]"><a href="">Press</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h1 class="text-white text-[20px]">More</h1>
-                    <ul class="mt-10">
-                        <li class="text-[#FFFFFF80] text-[16px] mb-2"><a href="">Program</a></li>
-                        <li class="text-[#FFFFFF80] text-[16px] mb-2"><a href="">Plan</a></li>
-                        <li class="text-[#FFFFFF80] text-[16px] "><a href="">Method</a></li>
-                    </ul>
-                </div>
-
-                <div class="text-[#FFFFFF]">
-                    <h1 class="text-[24px] mb-10">Popular Tags</h1>
-                    <div class="mb-2">
-                        <button class="text-[14px] bg-[#FFFFFF80] p-2">Abs</button>
-                        <button class="text-[14px] bg-[#FFFFFF80] p-2">Workout</button>
-                        <button class="text-[14px] bg-[#FFFFFF80] p-2">Nutrition</button>
-                    </div>
-                    <div class="mb-2">
-                        <button class="text-[14px] bg-[#FFFFFF80] p-2">Boxing</button>
-                        <button class="text-[14px] bg-[#FFFFFF80] p-2">Gym</button>
-                        <button class="text-[14px] bg-gradient-to-r from-[#F66844] to-[#FF921B] p-2">Facilities</button>
-                    </div>
-                    <div>
-                        <button class="text-[14px] bg-[#FFFFFF80] p-2">Plans</button>
-                        <button class="text-[14px] bg-[#FFFFFF80] p-2">Trainers</button>
-                    </div>
-                </div>
-                </div>
-            </div>
+     
+      <div>
+        <div class="bg-clip-text text-transparent bg-gradient-to-r from-[#F66844] to-[#FF921B80]">
+          <div class="flex items-center gap-3 mb-3">
+            <img src="image/logo_left.png" alt="" class="w-6 h-6">
+            <h1 class="text-[24px] font-bold">Bodyshape</h1>
+            <img src="image/logo_right.png" alt="" class="w-6 h-6">
+          </div>
+          <h3 class="text-[12px] ml-1">Unleash your inner athlete</h3>
         </div>
-    </footer>
 
-    <footer class="mt-40  bg-[#FF921B]">
-        <div class="flex items-center justify-center gap-2 max-w-[1320px] m-auto w-full pt-2 pb-4">
-            <img src="image/copyright (1) 1.png" alt="">
-            <h1 class="text-[#FFFFFF] text-[20px]">2023 All Right REserved</h1>
+        <div class="mt-6 text-[16px] leading-6">
+          <h1>Support Your Need To <br> Much Fitness Goal</h1>
         </div>
-    </footer>
+      </div>
+
+      
+      <div>
+        <h1 class="text-[20px] font-semibold mb-5">Company</h1>
+        <ul class="space-y-2 text-[#FFFFFF80]">
+          <li><a href="">About</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Blogs</a></li>
+        </ul>
+      </div>
+
+      
+      <div>
+        <h1 class="text-[20px] font-semibold mb-5">Contact</h1>
+        <ul class="space-y-2 text-[#FFFFFF80]">
+          <li><a href="">Help / FAQ</a></li>
+          <li><a href="">Press</a></li>
+        </ul>
+      </div>
+
+      
+      <div>
+        <h1 class="text-[20px] font-semibold mb-5">More</h1>
+        <ul class="space-y-2 text-[#FFFFFF80]">
+          <li><a href="">Program</a></li>
+          <li><a href="">Plan</a></li>
+          <li><a href="">Method</a></li>
+        </ul>
+      </div>
+
+      
+      <div>
+        <h1 class="text-[20px] font-semibold mb-5">Popular Tags</h1>
+        <div class="flex flex-wrap gap-2">
+          <button class="text-[14px] bg-[#FFFFFF80] px-3 py-1 rounded">Abs</button>
+          <button class="text-[14px] bg-[#FFFFFF80] px-3 py-1 rounded">Workout</button>
+          <button class="text-[14px] bg-[#FFFFFF80] px-3 py-1 rounded">Nutrition</button>
+          <button class="text-[14px] bg-[#FFFFFF80] px-3 py-1 rounded">Boxing</button>
+          <button class="text-[14px] bg-[#FFFFFF80] px-3 py-1 rounded">Gym</button>
+          <button class="text-[14px] bg-gradient-to-r from-[#F66844] to-[#FF921B] px-3 py-1 rounded">Facilities</button>
+          <button class="text-[14px] bg-[#FFFFFF80] px-3 py-1 rounded">Plans</button>
+          <button class="text-[14px] bg-[#FFFFFF80] px-3 py-1 rounded">Trainers</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+<footer class="bg-[#FF921B] text-center py-3 mt-10 overflow-x-hidden">
+  <div class="flex flex-col sm:flex-row items-center justify-center gap-2">
+    <img src="image/copyright (1) 1.png" alt="" class="w-5 h-5">
+    <h1 class="text-white text-[16px] sm:text-[18px]">
+      2023 All Rights Reserved
+    </h1>
+  </div>
+</footer>
+
 </body>
 </html>
